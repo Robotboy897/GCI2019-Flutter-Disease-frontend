@@ -27,7 +27,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: "^0.7.4"
+  
+flutter_icons:
+  image_path: "assets/foreground-01.png"
+  android: true
+  ios: true
+  adaptive_icon_background: '#ffffff'
+  adaptive_icon_foreground: 'assets/foreground-01.png'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
